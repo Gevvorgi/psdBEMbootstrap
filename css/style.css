@@ -18,7 +18,9 @@
     font-family: 'OpenSans-Regular', sans-serif;
     font-family: 'OpenSans-Semibold', sans-serif;
     font-family: 'OpenSans-Bold', sans-serif; */
-
+body {
+    font-family: 'OpenSans', sans-serif;
+}
 ul, li {
     display: block;
     margin: 0;
@@ -41,3 +43,65 @@ ul, li {
 .menu__item a:hover {
     color: #7d7d7d;
 }
+.header > div {
+    color: #fff;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(../img/header.png);
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+.button_empty {
+    background: transparent;
+    border: 2px solid #fff;
+}
+.button_full {
+    background: #00897b;
+    border: 2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover {
+    border: 2px dotted #fff;
+    background: #00574e;
+}
+.about {
+    padding: 120px 0 125px;
+    color: #212121;
+    text-align: center;
+}
+.fa-solid {
+    font-size: 75px;
+    color: #000;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about__text-title {
+    margin-bottom: 110px;
+}
+.about__text {
+    font-size: 15px;
+    font-weight: normal;
+    color: #3f3f3f;
+}
+.about_h3 {
+    margin: 30px 0 20px;
+    font-family: 'OpenSans-Semibold';
+    font-size: 20px;
+}
+
+
