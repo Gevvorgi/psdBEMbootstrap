@@ -97,11 +97,54 @@ ul, li {
     font-size: 15px;
     font-weight: normal;
     color: #3f3f3f;
+    transition: 0.5s;
 }
 .about_h3 {
     margin: 30px 0 20px;
     font-family: 'OpenSans-Semibold';
     font-size: 20px;
 }
-
+.services {
+    padding: 165px 0 125px;
+    background: #e4fdf9;
+    color: #212121;
+    text-align: center;
+}
+.our_card {
+    margin-bottom: 30px;
+    padding: 50px 40px 40px;
+    background: #fff;
+    transition: 0.5s;
+}
+.our_card:hover {
+    background: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+.our_card:hover .about__text {
+    color: #fff;
+}
+.our_card:hover .icon {
+    color: #fff;
+}
+.our_card:hover .button-services {
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+.icon {
+    font-size: 60px;
+    color: #000;
+    transition: 0.5s;
+}
+.button-services {
+    margin: 35px 0 40px;
+    padding: 10px 12px;
+    font-family: 'OpenSans-Semibold';
+    text-transform: uppercase;
+    border: 2px solid #000;
+    color: #000;
+    background: transparent;
+    transition: 0.5s;
+}
 
