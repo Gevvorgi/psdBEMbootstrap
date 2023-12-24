@@ -295,3 +295,121 @@ div[filter]:hover .text {
 .dots-style li[class="slick-active"] button {
     background: #3949ab;
 }
+.left > div:first-child {
+    order: 1;
+}
+.left > div:last-child {
+    order: 2;
+}
+.right > div:first-child {
+    order: 2;
+}
+.right > div:last-child {
+    order: 1;
+}
+.blog {
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: left;
+}
+.blog a {
+    font-family: 'OpenSans-Semibold';
+    font-size: 25px;
+    text-decoration: none;
+    color: #212121;
+    transition: 0.3s;
+}
+.blog a:hover {
+    color: #00897b;
+}
+.blog div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.blog span {
+    margin-right: 35px;
+    font-size: 17px;
+    font-family: 'OpenSans-Semibold';
+}
+.blog i {
+    margin-right: 10px;
+}
+.blog p {
+    font-size: 15px;
+}
+.right,
+.left {
+    margin: 0 20px;
+}
+.button_blog {
+    margin-top: 125px;
+    height: 70px;
+    width: 220px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00897b;
+    border: none;
+}
+.footer {
+    padding: 165px 0 125px;
+    color: #fff;
+    background-image: url(../img/footer.png);
+    text-align: center;
+}
+.footer .about__text {
+    color: #fff;
+}
+.fa-location-dot, .fa-phone, .fa-envelope {
+    font-size: 62px;
+    color: #fff;
+}
+.circle {
+    margin: 0 auto 35px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #3949ab;
+}
+.circle + p {
+    font-size: 20px;
+}
+.footer input, 
+.footer textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.footer input:focus, 
+.footer textarea:focus {
+    outline: none;
+}
+.footer textarea {
+    margin: 30px 0;
+    resize: none;
+}
+.footer button {
+    padding: 20px 80px;
+    font-family: 'OpenSans-Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+.footer button:hover {
+    opacity: 0.6;
+}
+.form {
+    margin-top: 70px;
+}
+.rules {
+    padding: 20px 0;
+    font-family: 'OpenSans-Semibold';
+    text-align: center;
+}
