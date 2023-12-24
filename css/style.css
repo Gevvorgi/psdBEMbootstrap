@@ -26,7 +26,9 @@ ul, li {
     margin: 0;
     padding: 0;
 }
-
+.menu-icon .fa-solid {
+    font-size: 30px;
+}
 .menu-bar {
     padding: 20px 0;
     color: #212121;
@@ -77,7 +79,7 @@ ul, li {
     color: #212121;
     text-align: center;
 }
-.fa-solid {
+.fa-globe, .fa-users, .fa-user-gear {
     font-size: 75px;
     color: #000;
 }
@@ -154,6 +156,7 @@ ul, li {
 }
 .portfolio img {
     margin-bottom: 30px;
+    max-width: 100%;
 }
 .filter {
     padding: 120px 0;
@@ -186,6 +189,7 @@ div[filter]:hover .text {
 .price {
     background: #fff;
     transition: 0.3s;
+    margin-bottom: 20px;
 }
 .price:hover {
     box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
@@ -412,4 +416,73 @@ div[filter]:hover .text {
     padding: 20px 0;
     font-family: 'OpenSans-Semibold';
     text-align: center;
+}
+#toTop {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #212121;
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+#toTop:hover {
+    background: #00897b;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#toTop i {
+    font-size: 25px;
+    color: #212121;
+    transition: 0.3s;
+}
+#toTop:hover i {
+    color: #fff;
+}
+.menu-icon {
+    display: none;
+}
+@media screen and (max-width: 1025px){
+    nav {
+        display: none;
+    }
+    .logo-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-icon {
+        display: block;
+        background: #00897b;
+        border: none;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .menu-icon .fa-solid {
+        font-size: 25px;
+    }
+    .footer input,
+    .footer textarea {
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 787px) {
+    .blog {
+        margin: 30px 0 60px;
+        text-align: center;
+    }
+    .right > div:first-child {
+        order: 1;
+    }
+    .right > div:last-child {
+        order: 2;
+    }
 }
