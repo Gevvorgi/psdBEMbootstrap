@@ -486,3 +486,65 @@ div[filter]:hover .text {
         order: 2;
     }
 }
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 20px;
+    }
+    .header__title {
+        font-size: 45px;
+    }
+    .header__text {
+        margin-bottom: 20px;
+    }
+    .button {
+        margin-bottom: 10px;
+    }
+    .about {
+        padding: 20px;
+    }
+    .about__text {
+        margin-bottom: 20px;
+    }
+    .services {
+        padding: 20px;
+    }
+    .portfolio {
+        padding: 20px;
+    }
+    .filter {
+        padding: 20px;
+    }
+    .pricing {
+        padding: 20px;
+    }
+    .team {
+        padding: 20px 0;
+    }
+    .multiple-items {
+        margin-top: 10px;
+    }
+    .team img {
+        max-width: 320px;
+    }
+    .dots-style {
+        margin-top: 10px;
+    }
+    .blog span {
+        display: block;
+    }
+    .left,
+    .right {
+        justify-content: center;
+    }
+    .left img,
+    .right img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .button_blog {
+        margin: 0;
+    }
+    .footer {
+        padding: 20px;
+    }
+}
